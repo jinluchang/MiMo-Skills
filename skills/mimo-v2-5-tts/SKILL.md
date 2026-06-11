@@ -37,6 +37,7 @@ V2.5 系列提供三种模型，根据使用场景选择：
 | 环境变量       | 说明                               | 必需 |
 | -------------- | ---------------------------------- | ---- |
 | `MIMO_API_KEY` | MiMo API 密钥（MiMo 开放平台获取） | 是   |
+| `MIMO_BASE_URL` | API 基础 URL（默认 `https://api.xiaomimimo.com/v1`，Token Plan 使用 `https://token-plan-cn.xiaomimimo.com/v1`） | 否 |
 
 | 依赖      | 说明                     | 必需                 |
 | --------- | ------------------------ | -------------------- |

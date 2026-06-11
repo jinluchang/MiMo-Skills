@@ -56,6 +56,7 @@ ln -s MiMo-Skills/skills/* ~/.openclaw/skills/
 | 变量 | 描述 | 必需 |
 |------|------|------|
 | `MIMO_API_KEY` | MiMo API 密钥 | 是 |
+| `MIMO_BASE_URL` | API 基础 URL（默认 `https://api.xiaomimimo.com/v1`，Token Plan 使用 `https://token-plan-cn.xiaomimimo.com/v1`） | 否 |
 | `FEISHU_APP_ID` | 飞书 App ID（用于语音消息发送） | 否 |
 | `FEISHU_APP_SECRET` | 飞书 App Secret（用于语音消息发送） | 否 |
 

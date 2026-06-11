@@ -58,6 +58,7 @@ ln -s ~/.mimo-skills/skills/* ~/.hermes/skills/
 | Variable | Description | Required |
 |----------|-------------|----------|
 | `MIMO_API_KEY` | MiMo API key | Yes |
+| `MIMO_BASE_URL` | API base URL (default: `https://api.xiaomimimo.com/v1`, Token Plan: `https://token-plan-cn.xiaomimimo.com/v1`) | Optional |
 | `FEISHU_APP_ID` | Feishu App ID (for voice message sending) | Optional |
 | `FEISHU_APP_SECRET` | Feishu App Secret (for voice message sending) | Optional |
 
