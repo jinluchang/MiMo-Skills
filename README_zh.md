@@ -18,32 +18,32 @@
 ### npx（推荐）
 
 ```bash
-npx skills add XiaomiMiMo/MiMo-Skills
+npx skills add jinluchang/MiMo-Skills
 ```
 
 常用选项：
 
 ```bash
 # 列出可用的 skills（不安装）
-npx skills add XiaomiMiMo/MiMo-Skills --list
+npx skills add jinluchang/MiMo-Skills --list
 
 # 安装到指定 agent
-npx skills add XiaomiMiMo/MiMo-Skills -a claude-code -a opencode
+npx skills add jinluchang/MiMo-Skills -a claude-code -a opencode
 
 # 全局安装（用户级）
-npx skills add XiaomiMiMo/MiMo-Skills -g
+npx skills add jinluchang/MiMo-Skills -g
 
 # 安装指定 skill
-npx skills add XiaomiMiMo/MiMo-Skills --skill mimo-v2-5-tts
+npx skills add jinluchang/MiMo-Skills --skill mimo-v2-5-tts
 
 # 非交互模式（适用于 CI/CD）
-npx skills add XiaomiMiMo/MiMo-Skills -g -a claude-code -y
+npx skills add jinluchang/MiMo-Skills -g -a claude-code -y
 ```
 
 ### 手动安装
 
 ```bash
-git clone https://github.com/XiaomiMiMo/MiMo-Skills.git
+git clone https://github.com/jinluchang/MiMo-Skills.git
 ln -s MiMo-Skills/skills/* ~/.openclaw/skills/
 # ln -s MiMo-Skills/skills/* ~/.hermes/skills/
 # ln -s MiMo-Skills/skills/* ~/.config/opencode/skills/
